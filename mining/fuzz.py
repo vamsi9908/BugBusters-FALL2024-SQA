@@ -3,7 +3,8 @@ import string
 import subprocess
 import os
 import time
-from mining.py import *
+import mining
+from mining import *
 
 # Method 1: deleteRepo
 def fuzz_deleteRepo():
