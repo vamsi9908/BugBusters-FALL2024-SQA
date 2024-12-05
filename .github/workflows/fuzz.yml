@@ -27,4 +27,5 @@ jobs:
          
       - name: Run fuzz testing
         run: |
+	  cd mining
           python fuzz.py
