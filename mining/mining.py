@@ -1,4 +1,3 @@
-!pip install pandas
 
 import os
 import pandas as pd 
