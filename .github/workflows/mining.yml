@@ -25,7 +25,7 @@ jobs:
 
       # Step 3: Run fuzz.py
       - name: Run Fuzz Testing CLI
-        run: python "Activity 4d/fuzz.py"
+        run: python "mining/fuzz.py"
 
       # Step 4: Archive Fuzz Logs (Optional)
       - name: Upload Fuzz Logs
