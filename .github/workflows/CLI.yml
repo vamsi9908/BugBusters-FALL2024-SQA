@@ -25,11 +25,11 @@ jobs:
 
       # Step 3: Run fuzz.py
       - name: Run Fuzz Testing CLI
-        run: python "Activity 4d/fuzz.py"
+        run: python "activity 4d/fuzz.py"
 
       # Step 4: Archive Fuzz Logs (Optional)
       - name: Upload Fuzz Logs
         uses: actions/upload-artifact@v3
         with:
           name: Fuzz Report
-          path: "Activity 4d/fuzz_report.log"
+          path: "activity 4d/fuzz_report.log"
